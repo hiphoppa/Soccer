@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "BYekan";
+    src: url("../fonts/BYekan-webfont.eot") format("eot"), url("../fonts/BYekan-webfont.woff") format("woff"), url("../fonts/BYekan-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "BYekan" !important;
+    background: url("../img/ramos.jpg") no-repeat !important;
+    background-size: cover !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.dir-rtl {
+    direction: rtl;
+}
+
+.custom-border {
+    border: 1px solid rgb(190, 188, 188);
+}
+
+.custom-bg {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.custom-bottom {
+    bottom: 50px;
+    position: absolute;
+}
+
+.custom-border-right {
+    border-right: 3px solid green;
+}
+
+.custom-border-del {
+    border-right: 3px solid red;
+    text-decoration: line-through;
+    color: rgb(133, 138, 133);
+}
+
+.custom-transparent {
+    background-color: rgba(239, 255, 0, 0.88);
+}
+
+.custom-fsize {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.none-padding {
+    top: 8px;
+}
+
+@media (max-width: 767px) {
+    .custom-bg {
+        padding: 0px !important;
+    }
+    .custom-border {
+        border: none !important;
+    }
+    .none-padding {
+        padding: 0px !important;
+    }
+    body {
+        background-image: url("../img/cellphone.jpg") !important;
+        background-size: 100% !important;
+    }
+}
