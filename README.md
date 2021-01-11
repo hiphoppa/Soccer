@@ -1,3 +1,3 @@
-first install node modules with (( npm i ))
+install node modules with (( npm i ))
 
-then install: npm i faker react-toastify react-router-dom react-bootstrap react-router
+tools I used in this project: faker react-toastify react-router-dom react-bootstrap react-router Context API
